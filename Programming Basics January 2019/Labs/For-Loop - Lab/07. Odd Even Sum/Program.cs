@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace _07.Odd_Even_Sum
 {
     class Program
@@ -23,11 +23,13 @@ namespace _07.Odd_Even_Sum
             int diff = Math.Abs(evenSum - oddSum);
             if (diff==0)
             {
-                Console.WriteLine($"Yes Sum = {evenSum}");
+                Console.WriteLine($"Yes");
+                Console.WriteLine($"Sum = {evenSum}");
             }
             else
             {
-                Console.WriteLine($"No Diff = {diff}");
+                Console.WriteLine($"No");
+                Console.WriteLine($"Diff = {diff}");
             }
         }
     }
