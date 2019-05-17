@@ -1,4 +1,4 @@
 
 
-                                      SoftUni Programming Basics with C# January 2019 
+                                                           SoftUni 
                                                   Online Interactive Course    		  	    
