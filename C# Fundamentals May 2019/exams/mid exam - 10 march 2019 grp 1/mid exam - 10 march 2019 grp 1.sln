@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Spring Vacation Trip", "01. Spring Vacation Trip\01. Spring Vacation Trip.csproj", "{8815DE8D-DB49-4B6C-AAC2-DEF48EA3255C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Spring Vacation Trip", "01. Spring Vacation Trip\01. Spring Vacation Trip.csproj", "{8815DE8D-DB49-4B6C-AAC2-DEF48EA3255C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Hello, France", "02. Hello, France\02. Hello, France.csproj", "{E22AB045-DB54-4583-91D4-3CBFD0C471DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Hello, France", "02. Hello, France\02. Hello, France.csproj", "{E22AB045-DB54-4583-91D4-3CBFD0C471DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Last Stop", "03. Last Stop\03. Last Stop.csproj", "{92C5BBAD-3F0D-46DF-B3DF-02B7400026CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Last Stop", "03. Last Stop\03. Last Stop.csproj", "{92C5BBAD-3F0D-46DF-B3DF-02B7400026CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cooking factory", "cooking factory\cooking factory.csproj", "{8C517F59-1205-4B61-B5D0-3A613B02AEA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{92C5BBAD-3F0D-46DF-B3DF-02B7400026CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C5BBAD-3F0D-46DF-B3DF-02B7400026CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C5BBAD-3F0D-46DF-B3DF-02B7400026CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C517F59-1205-4B61-B5D0-3A613B02AEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C517F59-1205-4B61-B5D0-3A613B02AEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C517F59-1205-4B61-B5D0-3A613B02AEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C517F59-1205-4B61-B5D0-3A613B02AEA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

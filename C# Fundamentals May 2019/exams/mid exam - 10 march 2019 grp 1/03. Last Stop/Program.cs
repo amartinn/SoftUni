@@ -7,7 +7,7 @@ namespace _03._Last_Stop
     class Program
     {
         static void Main(string[] args)
-        {
+            {
             var numbers = Console.ReadLine()
                 .Split()
                 .Select(x => int.Parse(x))
