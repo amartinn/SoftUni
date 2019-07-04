@@ -7,7 +7,7 @@ namespace _01._Count_Chars_in_a_String
     {
         static void Main(string[] args)
         {
-            Dictionary<char, int> countChars = new Dictionary<char, int>();
+            var countChars = new Dictionary<char, int>();
             var input = Console.ReadLine();
             for (int i = 0; i < input.Length; i++)
             {

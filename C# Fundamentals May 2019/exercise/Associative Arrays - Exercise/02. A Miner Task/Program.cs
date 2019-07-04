@@ -6,7 +6,7 @@ namespace _02._A_Miner_Task
     { 
         static void Main(string[] args)
         {
-            Dictionary<string, int> resources = new Dictionary<string, int>();
+            var resources = new Dictionary<string, int>();
             var input = string.Empty;
             while ((input=Console.ReadLine())!="stop")
             {
