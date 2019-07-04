@@ -7,6 +7,7 @@ namespace _02._Judge
     {
         static void Main(string[] args)
         {
+            // https://judge.softuni.bg/Contests/Practice/Index/1302#1
             var contestUserAndPts = new Dictionary<string, Dictionary<string, int>>();
             var input = string.Empty;
             while ((input = Console.ReadLine())!="no more time")
