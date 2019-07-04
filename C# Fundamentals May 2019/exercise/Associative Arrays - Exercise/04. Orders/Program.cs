@@ -7,23 +7,35 @@ namespace _04._Orders
     {
         static void Main(string[] args)
         {
-            Dictionary<string, double> products = new Dictionary<string, double>();
+            var products = new Dictionary<string, List<double>>();
             var input = string.Empty;
-            while ((input = Console.ReadLine())!="buy")
+            while ((input = Console.ReadLine()) != "buy")
             {
-                var tokens = input.Split();
-                var product = tokens[0];
-                var totalValue = double.Parse(tokens[1]) * double.Parse(tokens[2]);
+                var line = input.Split();
+                var product = line[0];
+                var price = double.Parse(line[1]);
+                var quantity = double.Parse(line[2]);
                 if (!products.ContainsKey(product))
                 {
-                    products.Add(product, 0.0);
+                    products[product] = new List<double>();
+                    products[product].Add(price);
+                    products[product].Add(quantity);
                 }
-                products[product] += totalValue;
+                else
+                {
+                    products[product][1] += quantity;
+                    if (products[product][0] != price)
+                    {
+                        products[product][0] = price;
+                    }
+                }
             }
-            foreach (var kvp in products)
+            foreach (var product in products)
             {
-                Console.WriteLine($"{kvp.Key} -> {kvp.Value:f2}");
+
+                Console.WriteLine($"{product.Key} -> {product.Value[1] * product.Value[0]:f2}");
             }
+
         }
     }
 }
