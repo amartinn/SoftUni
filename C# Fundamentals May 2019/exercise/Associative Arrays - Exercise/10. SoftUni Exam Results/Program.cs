@@ -32,7 +32,7 @@ namespace _10._SoftUni_Exam_Results
                 }
                 if (!languageAndCount.ContainsKey(language))
                 {
-                    languageAndCount[language] = 0;
+                    languageAndCount[language] = 0; 
                 }
                 languageAndCount[language] ++;
             }
