@@ -15,41 +15,43 @@ namespace _02._Judge
                 var line = input.Split(" -> ");
                 var user = line[0];
                 var contest = line[1];
-                var pts = int.Parse(line[2]);            
+                var points = int.Parse(line[2]);            
                 if (!contestUserAndPts.ContainsKey(contest))
                 {
                     contestUserAndPts[contest] = new Dictionary<string, int>();
-                    contestUserAndPts[contest].Add(user, pts);
+                    contestUserAndPts[contest].Add(user, points);
                    
                 }
                 else if (contestUserAndPts.ContainsKey(contest) && !contestUserAndPts[contest].ContainsKey(user))
                 {
                  
-                    contestUserAndPts[contest].Add(user, pts);
+                    contestUserAndPts[contest].Add(user, points);
                     
                 }
                  if (contestUserAndPts.ContainsKey(contest) && contestUserAndPts[contest].ContainsKey(user))
                 {
-                    if (contestUserAndPts[contest][user]<pts)
+                    if (contestUserAndPts[contest][user]<points)
                     {
-                        contestUserAndPts[contest][user] = pts;
+                        contestUserAndPts[contest][user] = points;
                            
                     }
                     
                 }   
             }
-            
+             var count = 1;
             foreach (var contest in contestUserAndPts)
         {
+               
             Console.WriteLine($"{contest.Key}: {contest.Value.Keys.Count} participants");
             foreach (var users in contest.Value.OrderByDescending(x=>x.Value).ThenBy(x=>x.Key))
             {
-                var count = 1;
+                
                 Console.WriteLine($"{count}. {users.Key} <::> {users.Value}");
                 count++;
             }
         }
-            Console.WriteLine("Individual standings:"); 
+            Console.WriteLine("Individual standings:");
+            count = 1;
             // TODO
         }
     }
