@@ -1,7 +1,7 @@
 # <a href rel="Programming-Basics"><p align="center"> Programming-Basics with C# january 2019 <p></a>
 
   ## Exercises
-  - <a target="_blank" href="https://github.com/amartinn/SoftUni/tree/master/Programming%20Basics%20January%202019/Exercises/Simple%20Operations%20and%20Calculations%20-%20Exercise" > Simple Operations and Calculations </a>
+  - <a href="https://github.com/amartinn/SoftUni/tree/master/Programming%20Basics%20January%202019/Exercises/Simple%20Operations%20and%20Calculations%20-%20Exercise" > Simple Operations and Calculations target="_blank" </a>
   - <a target="_blank" href="https://github.com/amartinn/SoftUni/tree/master/Programming%20Basics%20January%202019/Exercises/Conditional%20Statements%20-%20Exercise" > Conditional Statements </a>
   - <a target="_blank" href="https://github.com/amartinn/SoftUni/tree/master/Programming%20Basics%20January%202019/Exercises/Nested%20Conditional%20Statements%20-%20Exercise" > Nested Conditional Statements </a>  
   - <a target="_blank" href="https://github.com/amartinn/SoftUni/tree/master/Programming%20Basics%20January%202019/Exercises/While-Loop%20-%20Exercise" > While-loop </a>
