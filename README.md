@@ -1,12 +1,5 @@
-
-<a href="https://softuni.bg/trainings/courses" rel="Courses">  ![SoftUni logo][logo] <a/>
-
-[logo]: https://upload.wikimedia.org/wikipedia/commons/6/64/Logo_Software_University_%28SoftUni%29_-_blue_background.png "Softuni Logo"
-
 <br/>
-<br/>
-<br/>
-
+<h1 align="center"> Wellcome to my Software Univercity repository<h1>
 <h2> Certificates </h2>
 
 |**Course**|**Link**| 
