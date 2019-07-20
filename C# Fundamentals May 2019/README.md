@@ -9,7 +9,7 @@
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exercise/Associative%20Arrays%20-%20Exercise" > Associative Arrays </a>
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exercise/Associative%20Arrays%20-%20More%20Exercise" > Associative Arrays - More Exercises</a>
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exercise/Text%20Processing%20-%20Exercise" > Text Processing </a>
-- <a href="#" > Regular Expressions </a>
+- <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exercise/Regular%20Expressions%20-%20Exercise" > Regular Expressions </a>
 ## Exams
 ### Mid Exams
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exams/mid%20exam%20-%204%20november%202018" > mid exam - 4 november 2018</a>
