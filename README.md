@@ -1,5 +1,5 @@
 
-<h1 align="center"> Wellcome to my Software Univercity repository<h1>
+<h1 align="center"> Wellcome to my Software University repository<h1>
 <h2> Certificates </h2>
 
 |**Course**|**Link**| 
