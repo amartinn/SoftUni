@@ -19,3 +19,7 @@
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exams/mid%20exam%2030%20june%20grp1" > mid exam - 30 june 2019 group 1</a>
 ### Final Exams
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exams/(Demo)%20Programming%20Fundamentals%20Final%20Exam%20-%2021%20July%202019"> (Demo) Programming Fundamentals Final Exam - 21 July 2019</a>
+- <a
+href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exams/Final%20Exam%20-%2014%20april%202019%20grp%201"> Programming Fundamentals Final Exam - 14 April 2019 Group 1</a>
+- <a
+href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exams/Final%20Exam%20-%2014%20April%202019%20grp%202"> Programming Fundamentals Final Exam - 14 April 2019 Group 2</a>
