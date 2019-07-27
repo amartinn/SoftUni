@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace _02._Activation_Keys
@@ -20,20 +21,19 @@ namespace _02._Activation_Keys
                     {
                         for (int i = 0; i < key.Length; i++)
                         {
+                            var current = key[i];
                             if (i % 4 == 0 && i != 0)
                             {
-                                result += '-';
+                                result += "-";
                             }
-                            else if (char.IsDigit(key[i]))
+                            if (char.IsDigit(current))
                             {
-                                var digit = int.Parse(key[i].ToString());
-                                result += Math.Abs(9 - digit);
+                                result += (int)(9 - int.Parse(current.ToString()));
                             }
-
-                            var current = key[i];
-                            result += char.ToUpper(current);
-
-
+                            else if (char.IsLetter(current))
+                            {
+                                result += char.ToUpper(current);
+                            }
                         }
                         keys.Add(result);
                     }
@@ -41,37 +41,26 @@ namespace _02._Activation_Keys
                     {
                         for (int i = 0; i < key.Length; i++)
                         {
+                            var current = key[i];
                             if (i % 5 == 0 && i != 0)
                             {
-                                Console.WriteLine(i);
-                                result += '-';
+                                result += "-";
                             }
-                            else
+                            if (char.IsDigit(current))
                             {
-
-                                if ((char.IsDigit(key[i])))
-                            
-                                {
-                                    var digit = int.Parse(key[i].ToString());
-                                    result += Math.Abs(9 - digit);
-                                }
-                                else
-                                {
-                                    var current = key[i];
-                                    result += char.ToUpper(current);
-                                }
-                                
+                                result += (int)(9 - int.Parse(current.ToString()));
                             }
-
-                            
-
+                            else if (char.IsLetter(current))
+                            {
+                                result += char.ToUpper(current);
+                            }
                         }
-                        keys.Add(result);
                     }
+                    keys.Add(result);
                 }
-
             }
-            Console.WriteLine(string.Join(',', keys));
+            Console.WriteLine(string.Join(", ", keys.Distinct()));
         }
+
     }
 }
