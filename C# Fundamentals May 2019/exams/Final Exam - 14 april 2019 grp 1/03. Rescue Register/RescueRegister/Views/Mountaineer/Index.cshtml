@@ -1,0 +1,35 @@
+﻿@model List<Mountaineer>
+
+<h1>Himalayas Rescue Register</h1>
+
+<div class="button-holder">
+    <a type="button" asp-controller="Mountaineer" asp-action="Create" class="button">Register a New Mountaineer</a>
+</div>
+<div class="content">
+    <div class="header">
+        <div class="mountaineer-label">Name</div>
+        <div class="mountaineer-label">Age</div>
+        <div class="mountaineer-label">Last Seen Date</div>
+        <div class="actions-label">Actions</div>
+    </div>
+    <div class="main">
+        @foreach (var item in Model)
+        {
+            <div class="mountaineer">
+                <div class="mountaineer-item">
+                    @item.Name
+                </div>
+                <div class="mountaineer-item">
+                    @item.Age
+                </div>
+                <div class="mountaineer-item">
+                    @item.LastSeenDate
+                </div>
+                <div class="mountaineer-item mountaineer-actions">
+                    <a type="button" asp-action="Edit" asp-route-id="@item.Id" class="mountaineerbutton">Edit</a>
+                    <a type="button" asp-action="Delete" asp-route-id="@item.Id" class="mountaineerbutton">Remove</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

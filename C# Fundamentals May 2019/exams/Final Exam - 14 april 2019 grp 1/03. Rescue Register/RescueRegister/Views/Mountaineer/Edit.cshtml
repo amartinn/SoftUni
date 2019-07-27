@@ -1,0 +1,55 @@
+﻿@model Mountaineer
+
+<form class="mountaineer-create" asp-action="Edit" asp-route-id="@Model.Id" method="post">
+    <div class="create-header">
+        Edit Mountaineer
+    </div>
+    <div class="create-mountaineeritem">
+        <div class="create-mountaineeritem-label">Name</div>
+        <input type="text" class="create-mountaineeritem-content" name="name" value=@Model.Name required />
+    </div>
+    <div class="create-mountaineeritem">
+        <div class="create-mountaineeritem-label">Age</div>
+        <input type="number" min="1" step="1" rows="3" class="create-mountaineeritem-content" name="age" value=@Model.Age required />
+    </div>
+
+    <div class="create-mountaineeritem">
+        <div class="create-mountaineeritem-label">Gender</div>
+
+        @if (Model.Gender == "Male")
+        {
+            <div class="gender-select">
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="gender" value="Male" id="male" checked>
+                    <label class="radio-label" for="male">Male</label>
+                </div>
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="gender" value="Female" id="female">
+                    <label class="radio-label" for="female">Female</label>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="gender-select">
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="gender" value="Male" id="male2">
+                    <label class="radio-label" for="male2">Male</label>
+                </div>
+                <div class="radio-div">
+                    <input class="radio-input" type="radio" name="gender" value="Female" id="female2" checked>
+                    <label class="radio-label" for="female2">Female</label>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="create-mountaineeritem">
+        <div class="create-mountaineeritem-label">Last Seen Date</div>
+        <input type="date" class="create-mountaineeritem-content" name="lastSeenDate" value=@Model.LastSeenDate required />
+    </div>
+
+    <div class="create-button-holder">
+        <button type="submit" class="button">Edit Mountaineer</button>
+        <a type="button" asp-controller="Mountaineer" asp-action="Index" class="button">Back</a>
+    </div>
+</form>

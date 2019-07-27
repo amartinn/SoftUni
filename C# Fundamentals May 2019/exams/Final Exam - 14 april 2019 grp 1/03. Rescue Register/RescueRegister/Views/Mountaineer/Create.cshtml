@@ -1,0 +1,35 @@
+﻿<form method="post" class="mountaineer-create" asp-action="Create">
+    <div class="create-header">
+        Register a New Mountaineer
+    </div>
+    <div class="create-mountaineeritem">
+        <div class="create-mountaineeritem-label">Name</div>
+        <input type="text" class="create-mountaineeritem-content" name="Name" required />
+    </div>
+    <div class="create-mountaineeritem">
+        <div class="create-mountaineeritem-label">Age</div>
+        <input type="number" min="1" step="1" rows="3" class="create-mountaineeritem-content" name="Age"
+               required />
+    </div>
+    <div class="create-mountaineeritem">
+        <div class="create-mountaineeritem-label">Gender</div>
+        <div class="gender-select">
+            <div class="radio-div">
+                <input class="radio-input" type="radio" name="Gender" value="Male" id="male" checked>
+                <label class="radio-label" for="male">Male</label>
+            </div>
+            <div class="radio-div">
+                <input class="radio-input" type="radio" name="Gender" value="Female" id="female">
+                <label class="radio-label" for="female">Female</label>
+            </div>
+        </div>
+    </div>
+    <div class="create-mountaineeritem">
+        <div class="create-mountaineeritem-label">Last Seen Date</div>
+        <input type="date" class="create-mountaineeritem-content" name="LastSeenDate" required />
+    </div>
+    <div class="create-button-holder">
+        <button type="submit" class="button">Register Mountaineer</button>
+        <a type="button" asp-action="Index" asp-controller="Mountaineer" class="button">Back</a>
+    </div>
+</form>

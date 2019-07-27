@@ -1,0 +1,118 @@
+textarea, input {
+    resize: none;
+    outline: none;
+    padding: 2%;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 3% auto;
+}
+
+.wrapper .mountaineer-create {
+    display: block;
+    width: 100%;
+}
+
+.wrapper .mountaineer-create .create-header {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.wrapper .mountaineer-create .create-title,
+.wrapper .mountaineer-create .create-mountaineeritem {
+    display: block;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.wrapper .mountaineer-create .create-title .create-title-label,
+.wrapper .mountaineer-create .create-mountaineeritem .create-mountaineeritem-label {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.wrapper .mountaineer-create .create-title .create-title-content {
+    font-size: 1.5em;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+input {
+    border-radius: 15px;
+    border: none;
+}
+
+.wrapper .mountaineer-create .create-mountaineeritem .create-mountaineeritem-content {
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    height: 20px;
+    margin: auto;
+    display: block;
+}
+
+.wrapper .create-button-holder {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.wrapper .create-button-holder a[type="button"],
+.wrapper .create-button-holder button {
+    width: 25%;
+    margin: 2%;
+    padding: 1.5% 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .create-button-holder a[type="button"]:hover,
+.wrapper .create-button-holder button:hover {
+    cursor: pointer;
+    background-color: #18374B;
+    color: #ffffff;
+    border: 2px solid #18374B;
+}
+
+.wrapper .create-button-holder a[type="button"]:hover,
+.wrapper .create-button-holder button:focus {
+    outline: none;
+}
+
+.gender-select {
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.radio-label {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+}
+
+.radio-input {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.radio-div {
+    margin: auto;
+    display: inline;
+}
+
+.back-button {
+    width: 10%;
+}
