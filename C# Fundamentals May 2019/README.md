@@ -1,4 +1,4 @@
-# <a href="https://softuni.bg/trainings/1439/programming-basics-august-2016" rel="Programming-Basics"><p align="center"> Programming Fundamentals with C# May 2019<p></a>
+# <a href="https://softuni.bg/trainings/2363/csharp-fundamentals-may-2019"><p align="center"> Programming Fundamentals with C# May 2019<p></a>
 
 ## Exercises
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Fundamentals%20May%202019/exercise/Data%20Types%20and%20Variables" > Data Types and Variables </a>
