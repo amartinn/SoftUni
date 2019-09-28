@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace _08._Parenthesis
 {
@@ -7,22 +9,50 @@ namespace _08._Parenthesis
         static void Main(string[] args)
         {
             var input = Console.ReadLine();
-            if (input.Length%2!=0)
+            var stack = new Stack<char>();
+            var isBalanced = true;
+
+            foreach (var parenthesis in input)
             {
-                Console.WriteLine("NO");
-                return;
-            }
-            bool isThereOpenParenthesis = false;
-            var lastOpenParenthesisIndex = -1;
-            var openParenthesis = string.Empty;
-            for (int i = 0; i < input.Length; i++)
-            {
-                while (input[i]=='[' || input[i]=='{' || input[i]=='(')
+                switch (parenthesis)
                 {
-                    lastOpenParenthesisIndex = i;
-                    isThereOpenParenthesis = true;
+                    case '[':
+                    case '{':
+                    case '(':
+                        stack.Push(parenthesis);
+                        break;
+                    case '}':
+                        if (!stack.Any())
+                            isBalanced = false;
+
+                        else if (stack.Pop() != '{')
+                            isBalanced = false;
+                        break;
+
+                    case ')':
+                        if (!stack.Any())
+                            isBalanced = false;
+
+                        else if (stack.Pop() != '(')
+                            isBalanced = false;
+                        break;
+
+                    case ']':
+                        if (!stack.Any())
+                            isBalanced = false;
+
+                        else if (stack.Pop() != '[')
+                            isBalanced = false;
+                        break;
+                }
+                if (!isBalanced)
+                {
+                    break;
                 }
             }
+            Console.WriteLine(isBalanced ? "YES":"NO");
+          
+
            
         }
     }
