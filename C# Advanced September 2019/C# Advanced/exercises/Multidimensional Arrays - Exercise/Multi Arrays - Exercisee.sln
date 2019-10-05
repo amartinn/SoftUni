@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Knight Game", "07. Knigh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Bombs", "8. Bombs\8. Bombs.csproj", "{ED97A4AF-1DBD-4E05-8162-592995E8BA7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Miner", "9. Miner\9. Miner.csproj", "{54AEC513-7DF9-4F22-940C-CACD18CB0393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Radio Bunny", "10. Radio Bunny\10. Radio Bunny.csproj", "{E0BF228E-C2F2-42AD-96B4-B9A3D75E7CB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{ED97A4AF-1DBD-4E05-8162-592995E8BA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED97A4AF-1DBD-4E05-8162-592995E8BA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED97A4AF-1DBD-4E05-8162-592995E8BA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54AEC513-7DF9-4F22-940C-CACD18CB0393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AEC513-7DF9-4F22-940C-CACD18CB0393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AEC513-7DF9-4F22-940C-CACD18CB0393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AEC513-7DF9-4F22-940C-CACD18CB0393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BF228E-C2F2-42AD-96B4-B9A3D75E7CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BF228E-C2F2-42AD-96B4-B9A3D75E7CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BF228E-C2F2-42AD-96B4-B9A3D75E7CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BF228E-C2F2-42AD-96B4-B9A3D75E7CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
