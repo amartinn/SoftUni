@@ -8,8 +8,9 @@
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Advanced%20September%202019/C%23%20Advanced/exercises/func%20prog%20-%20Exercise" > Functional Programming - Exercise </a>
 - <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Advanced%20September%202019/C%23%20Advanced/exercises/Defining%20Classes%20-%20Exercise" > Defining Classes - Exercise </a>
 - <a
-href="#">Generics - Exercise </a>
+href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Advanced%20September%202019/C%23%20Advanced/exercises/Generics%20-%20Exercise">Generics - Exercise </a>
 - <a
 href="#">Iterators and Comparators - Exercise </a>
 ## Exams
-TBA
+- <a
+href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Advanced%20September%202019/C%23%20Advanced/exams/Csharp%20Advanced%20Exam%20-%2023%20June%202019">C# Advanced Exam - 23 June 2019 </a>
