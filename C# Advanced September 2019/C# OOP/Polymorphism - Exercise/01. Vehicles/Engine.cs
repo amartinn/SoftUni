@@ -64,7 +64,7 @@
                     }
                     catch (Exception ex )
                     {
-                        Console.WriteLine(ex.InnerException.Message);
+                        writer.WriteLine(ex.InnerException.Message);
 
                     }
                     if (message!=null)
