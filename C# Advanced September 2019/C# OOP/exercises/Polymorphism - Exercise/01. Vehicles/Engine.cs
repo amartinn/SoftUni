@@ -45,7 +45,7 @@
                     truck.GetType().Name == vehicleType.Name ? truck : bus;
 
                 var isBusEmpty = commandType == ConstantMessages.DriveEmpty;
-                if (vehicle is Bus busTest)
+                if (vehicle is Bus)
                 {
                     if (isBusEmpty)
                     {
