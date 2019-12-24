@@ -1,4 +1,4 @@
-# <a href rel="Programming-Basics"><p align="center"> Programming-Basics with C# january 2019 <p></a>
+# <a href="https://softuni.bg/trainings/2210/programming-basics-with-csharp-january-2019" rel="Programming-Basics"><p align="center"> Programming-Basics with C# january 2019 <p></a>
 
   ## Exercises
   - <a target="_blank" href="https://github.com/amartinn/SoftUni/tree/master/C%23%20basics%20January%202019/Exercises/Simple%20Operations%20and%20Calculations%20-%20Exercise" > Simple Operations and Calculations </a>
