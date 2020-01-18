@@ -4,6 +4,7 @@
     using Decorations.Contracts;
     using Fish.Contracts;
     using Utilities.Messages;
+
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -11,7 +12,7 @@
 
     public abstract class Aquarium : IAquarium
     {
-        private string name;
+        private  string name;
 
         protected Aquarium(string name, int capacity)
         {

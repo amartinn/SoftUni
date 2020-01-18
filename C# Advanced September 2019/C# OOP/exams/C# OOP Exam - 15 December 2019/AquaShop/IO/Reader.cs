@@ -2,7 +2,7 @@
 {
     using System;
 
-    using AquaShop.IO.Contracts;
+    using Contracts;
 
     public class Reader : IReader
     {
