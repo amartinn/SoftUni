@@ -1,10 +1,5 @@
 function table(input){
 console.log(`<table>`);
-    // <tr>
-	// 	<td>Pesho</td>
-	// 	<td>Promenliva</td>
-	// 	<td>100000</td>
-    // </tr>
     let data = [];
 input.forEach(element => {
     console.log(`\t<tr>`);
