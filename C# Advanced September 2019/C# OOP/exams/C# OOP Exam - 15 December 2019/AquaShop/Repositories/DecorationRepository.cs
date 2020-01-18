@@ -2,9 +2,10 @@
 {
     using Contracts;
     using Models.Decorations.Contracts;
-    using Models.Decorations;
+
     using System.Collections.Generic;
     using System.Linq;
+
     public class DecorationRepository : IRepository<IDecoration>
     {
         private readonly List<IDecoration> models;

@@ -37,14 +37,14 @@
 
                 if (input[0] == "AddAquarium")
                 {
-                    string aquariumType = input[1];
-                    string aquariumName = input[2];
+                    var aquariumType = input[1];
+                    var aquariumName = input[2];
 
                     result = controller.AddAquarium(aquariumType, aquariumName);
                 }
                 else if (input[0] == "AddDecoration")
                 {
-                    string decorationType = input[1];
+                    var decorationType = input[1];
 
                     result = controller.AddDecoration(decorationType);
                 }

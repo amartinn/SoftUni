@@ -1,8 +1,5 @@
 ﻿namespace AquaShop.Utilities.Messages
-{
-    using System;
-
-    public static class OutputMessages
+{ public static class OutputMessages
     {
         public const string DecorationAdded = "Successfully added {0} to {1}.";
 
