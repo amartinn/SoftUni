@@ -1,17 +1,19 @@
 ﻿namespace AquaShop.Core
 {
-    using System;
-
     using IO;
-    using AquaShop.IO.Contracts;
+    using IO.Contracts;
     using Contracts;
+
+    using System;
     using System.Reflection;
+
+
 
     public class Engine : IEngine
     {
-        private IWriter writer;
-        private IReader reader;
-        private IController controller;
+        private readonly IWriter writer;
+        private readonly IReader reader;
+        private readonly IController controller;
 
         public Engine()
         {
@@ -24,7 +26,7 @@
         {
             while (true)
             {
-                string[] input = reader.ReadLine().Split();
+                var input = reader.ReadLine().Split();
                 if (input[0] == "Exit")
                 {
                     Environment.Exit(0);
@@ -48,30 +50,30 @@
                 }
                 else if (input[0] == "InsertDecoration")
                 {
-                    string aquariumName = input[1];
-                    string decorationType = input[2];
+                    var aquariumName = input[1];
+                    var decorationType = input[2];
 
                     result = controller.InsertDecoration(aquariumName, decorationType);
                 }
                 else if (input[0] == "AddFish")
                 {
-                    string aquariumName = input[1];
-                    string fishType = input[2];
-                    string fishName = input[3];
-                    string fishSpecies = input[4];
-                    decimal price = decimal.Parse(input[5]);
+                    var aquariumName = input[1];
+                    var fishType = input[2];
+                    var fishName = input[3];
+                    var fishSpecies = input[4];
+                    var price = decimal.Parse(input[5]);
 
                     result = controller.AddFish(aquariumName, fishType, fishName, fishSpecies, price);
                 }
                 else if (input[0] == "FeedFish")
                 {
-                    string aquariumName = input[1];
+                    var aquariumName = input[1];
 
                     result = controller.FeedFish(aquariumName);
                 }
                 else if (input[0] == "CalculateValue")
                 {
-                    string aquariumName = input[1];
+                    var aquariumName = input[1];
 
                     result = controller.CalculateValue(aquariumName);
                 }
