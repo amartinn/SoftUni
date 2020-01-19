@@ -1,4 +1,4 @@
-function solution(input){
-const delimiter = input.pop();
-console.log(input.join(delimiter));
+function solution(input) {
+    const delimiter = input.pop();
+    console.log(input.join(delimiter));
 }

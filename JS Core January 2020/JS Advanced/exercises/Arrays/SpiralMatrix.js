@@ -1,7 +1,7 @@
-function spiralMatrix(rows,cols) {
+function spiralMatrix(rows, cols) {
     const matrix = new Array(rows)
-    .fill()
-    .map(() => new Array(cols).fill(''));
+        .fill()
+        .map(() => new Array(cols).fill(''));
 
     let counter = 1;
     let startCol = 0;
@@ -39,4 +39,4 @@ function spiralMatrix(rows,cols) {
         console.log(row.join(' '));
     });
 }
-spiralMatrix(5,5);
+spiralMatrix(5, 5);
