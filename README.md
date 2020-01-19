@@ -8,5 +8,5 @@
 |Programming Fundamentals with C# </a>   | <a href="https://github.com/amartinn/SoftUni/blob/master/C%23%20Fundamentals%20May%202019/C%23%20Fundamentals%20-%20%D0%BC%D0%B0%D0%B9%202019%20-%20Certificate.pdf" > Click</a> |6.00/6.00
 |C# Advanced </a>   | <a href="https://github.com/amartinn/SoftUni/blob/master/C%23%20Advanced%20September%202019/C%23%20Advanced/C%23%20Advanced%20-%20September%202019%20-%20Certificate.pdf" >Click</a> | 6.00/6.00
 |C# OOP </a>   | <a href="https://github.com/amartinn/SoftUni/blob/master/C%23%20Advanced%20September%202019/C%23%20OOP/C%23%20OOP%20-%20October%202019%20-%20Certificate.pdf" >Click</a> | 6.00/6.00
-|JS Advanced </a>   | <a href="#" >Click</a> | TBA|
-|JS Applications </a>   | <a href="#" >Click</a> | TBA
+|JS Advanced </a>   |TBA| TBA|
+|JS Applications </a>   |TBA | TBA
