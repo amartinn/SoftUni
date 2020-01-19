@@ -14,5 +14,5 @@ function sort(input){
         }
 
     });
-    console.log(input)
+    console.log(input);
 }
