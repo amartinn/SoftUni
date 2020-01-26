@@ -19,8 +19,16 @@ function catalogue(input) {
     letters.sort();
     letters.forEach(letter => {
         console.log(letter);
+        products[letter].sort(function(a,b){
+            if(a.name>=b.name){
+                return 1;
+            }
+            else{
+                return -1;
+            }
+        });
         products[letter].forEach(product => {
-            console.log(` ${product.name}:${product.price}`)
+            console.log(`  ${product.name}: ${product.price}`)
         });
     });
 
