@@ -81,5 +81,5 @@
       let avgDecorFactor = decorFactor/broughtItems.length;
       buyTextArea.textContent+=`Average decoration factor: ${avgDecorFactor.toFixed(2)}`;
       this.disabled=true;
-    });
+    }); 
   }
