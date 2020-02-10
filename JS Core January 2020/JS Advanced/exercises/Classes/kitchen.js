@@ -1,3 +1,5 @@
+// TODO fix the bugs!
+
 class Kitchen {
     constructor(budget) {
         this.budget = +budget;
@@ -7,12 +9,12 @@ class Kitchen {
     }
     loadProducts(products) {
         products.forEach(product => {
-            let [productName, productQuantity, productPrice] = product.split(' ').map(x => x.trim());
+            let [productName, productQuantity, productPrice] = product.split(' ');
             productQuantity = +productQuantity;
             productPrice = +productPrice;
             let isAdded = true;
             if (this.budget - productPrice >= 0) {
-                if (this.productsInStock.includes(productName)) {
+                if (this.productsInStock[productName]) {
                     this.productsInStock[productName].productQuantity += productQuantity;
                 } else {
                     this.productsInStock[productName] = {
@@ -22,6 +24,7 @@ class Kitchen {
                     };
                 }
                 this.budget -= productPrice;
+
             } else {
                 isAdded = false;
             }
@@ -37,8 +40,8 @@ class Kitchen {
             acc[productName] = productQuantity;
             return acc;
         }, {});
+
         if (this.menu[meal]) {
-            this.menu[meal].products = products;
             return `The ${meal} is already in our menu, try something different.`
 
         } else {
@@ -46,7 +49,7 @@ class Kitchen {
                 meal,
                 products,
                 price
-            }
+            }   
             return `Great idea! Now with the ${meal} we have ${Object.keys(this.menu).length} meals in the menu, other ideas?`
 
         }
@@ -55,7 +58,7 @@ class Kitchen {
     makeTheOrder(meal) {
         if (!this.menu[meal]) {
             return `There is not ${meal} yet in our menu, do you want to order something else?`;
-        }
+        }    
         let gotProducts = true;
         Object.keys(this.productsInStock).forEach(product => {
             if (!this.menu[product]) {
@@ -72,6 +75,9 @@ class Kitchen {
 
     }
     showTheMenu() {
+        if(this.menu.length===0){
+            return "Our menu is not ready yet, please come later..."
+        }
         let output = '';
         Object.keys(this.menu).forEach(key => {
             output += `${this.menu[key].meal} - $ ${this.menu[key].price}\n`
