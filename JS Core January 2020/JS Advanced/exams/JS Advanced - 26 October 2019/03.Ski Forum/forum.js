@@ -90,18 +90,3 @@ class Forum {
         return output.trim();
     }
 }
-
-let forum = new Forum();
-
-forum.register('Michael', '123', '123', 'michael@abv.bg');
-forum.register('Stoyan', '123ab7', '123ab7', 'some@gmail@.com');
-forum.login('Michael', '123');
-forum.login('Stoyan', '123ab7');
-
-forum.postQuestion('Michael', "Can I rent a snowboard from your shop?");
-forum.postAnswer('Stoyan',1, "Yes, I have rented one last year.");
-forum.postQuestion('Stoyan', "How long are supposed to be the ski for my daughter?");
-forum.postAnswer('Michael',2, "How old is she?");
-forum.postAnswer('Michael',2, "Tell us how tall she is.");
-
-console.log(forum.showQuestions());
