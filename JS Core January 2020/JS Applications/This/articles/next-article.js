@@ -1,12 +1,12 @@
 function getArticleGenerator(articles) {
-	var current = 0;
+	let index = 0;
 	return function() {
-		if (current === articles.length) {
+		if (index === articles.length) {
 			return;
 		}
 		let article = document.createElement('article');
-		article.textContent = articles[current];
+		article.textContent = articles[index];
 		document.querySelector('#content').appendChild(article);
-		current++;
+		index++;
 	};
 }
