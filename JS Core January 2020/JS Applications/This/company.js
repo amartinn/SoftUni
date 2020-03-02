@@ -26,9 +26,7 @@ class Company {
 
 		bestDepartment.employees
 			.sort(function(a, b) {
-				if (a.salary === b.salary) {
-					return a.username.localeCompare(b.username);
-				}
+				if (a.salary === b.salary) return a.username.localeCompare(b.username);
 				return b.salary - a.salary;
 			})
 			.forEach((emp) => {
@@ -38,18 +36,18 @@ class Company {
 		return output.trim();
 	}
 	findBestDepartment() {
-		let temp = [];
+		let sortedDepartments = [];
 		for (let department of this.departments) {
 			let currentTotal = 0;
 			for (let employee of department.employees) {
 				currentTotal += employee.salary;
 			}
-			temp.push({
+			sortedDepartments.push({
 				name: department.department,
 				average: currentTotal / department.employees.length,
 				employees: department.employees
 			});
 		}
-		return temp.sort((a, b) => a.average > b.average)[0];
+		return sortedDepartments.sort((a, b) => a.average > b.average)[0];
 	}
 }
