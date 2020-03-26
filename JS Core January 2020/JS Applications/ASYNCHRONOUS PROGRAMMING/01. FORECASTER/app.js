@@ -1,7 +1,6 @@
 (() => {
 	const BASE_URL = `https://judgetests.firebaseio.com/locations.json`;
 	const WEATHER_URL = (url) => `https://judgetests.firebaseio.com/forecast/${url}.json`;
-
 	const elements = {
 		submitBtn: document.querySelector('#submit'),
 		input: document.querySelector('#location'),
