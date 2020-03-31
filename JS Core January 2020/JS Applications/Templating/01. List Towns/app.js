@@ -3,7 +3,7 @@
 
 	function loadTowns(e) {
 		e.preventDefault;
-		const towns = $('#towns').val().split(', ');
+		const towns = $('#towns').val().split(', ').filter((x) => x != '');
 		$('ul').empty();
 		$('#towns').val('');
 		fetch('./town.hbs')
@@ -17,7 +17,6 @@
 				$('ul').append(result);
 			})
 			.catch((e) => {
-				console.log('error');
 				$('ul').append(`<p>${e.message}</p>`);
 			});
 	}

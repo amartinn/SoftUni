@@ -1,0 +1,9 @@
+ {{>header}}
+ <div class="home d-md-flex flex-md-equal  my-md-3 pl-md-3">
+    {{#if loggedIn}}
+    {{>logged}}
+    {{else}}
+    {{>notLogged}}
+    {{/if}}
+  </div>
+  {{>footer}}
