@@ -10,6 +10,7 @@ export async function catalogHandler() {
 	}
 	const teams = await fireBaseRequestFactory('teams', token).getAll();
 	this.teams = Object.entries(teams || {}).map(([ teamId, team ]) => ({ ...team, teamId }));
+
 	await applyCommon.call(this);
 	this.partials.team = await this.load('../../templates/catalog/team.hbs');
 	await this.partial('../../templates/catalog/teamCatalog.hbs');

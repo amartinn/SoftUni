@@ -51,6 +51,8 @@ export async function editTeamHandler() {
 	});
 }
 export async function joinTeamHandler() {
+	// just to check if the currentUser has a team
+	await applyCommon.call(this);
 	const id = this.params.id;
 	const token = sessionStorage.getItem('token');
 	const team = await fireBaseRequestFactory('teams', token).getById(id);
@@ -58,7 +60,8 @@ export async function joinTeamHandler() {
 	let newMembers = [];
 	const currentUserName = sessionStorage.getItem('username');
 	if (this.hasTeam) {
-		notificationHandler(notificationMessages.team.joined.error(team.name));
+		notificationHandler(notificationMessages.team.joined.error, 'error');
+		this.redirect([ '#/catalog' ]);
 		return;
 	} else if (currentTeamMembers) {
 		// checks if the there is a team
@@ -66,6 +69,7 @@ export async function joinTeamHandler() {
 	} else {
 		newMembers = [ currentUserName ];
 	}
+
 	await fireBaseRequestFactory('teams', token).patchEntity(
 		{
 			teamMembers: [ ...newMembers ]

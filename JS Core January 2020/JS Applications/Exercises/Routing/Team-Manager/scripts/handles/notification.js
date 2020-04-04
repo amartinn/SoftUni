@@ -27,7 +27,7 @@ export const notificationMessages = {
 		editted: (name) => `Successfully editted team : ${name}!`,
 		joined: {
 			sucess: (name) => `Successfully joined team : ${name}!`,
-			error: (name) => `You are alreadt in team : ${name}!`
+			error: `You are already in a team!`
 		},
 		leaved: (name) => `Successfully leaved team : ${name}!`
 	}

@@ -20,6 +20,7 @@ export async function applyCommon() {
 				const hasTeam = teamMembers.find((x) => x === sessionStorage.getItem('username'));
 				if (hasTeam) {
 					this.teamId = key;
+
 					this.hasNoTeam = false;
 					return true;
 				}
