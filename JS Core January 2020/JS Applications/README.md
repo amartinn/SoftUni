@@ -9,3 +9,4 @@
 
 ## Exams
 <a href="https://github.com/amartinn/SoftUni/tree/master/JS%20Core%20January%202020/JS%20Applications/Exams/JS%20Applications%20Exam%20-%2007%20December%202019" ><p>JS Applications Exam - 07 December 2019<p></a>
+<a href="https://github.com/amartinn/SoftUni/tree/master/JS%20Core%20January%202020/JS%20Applications/Exams/JS%20Applications%20Exam%20-%2005%20Apr%202020" ><p>JS Applications Exam - 05 Apr 2020<p></a>
