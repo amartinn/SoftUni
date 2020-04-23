@@ -10,4 +10,6 @@
 |C# OOP </a>   | <a href="https://github.com/amartinn/SoftUni/blob/master/C%23%20Advanced%20September%202019/C%23%20OOP/C%23%20OOP%20-%20October%202019%20-%20Certificate.pdf" >Click</a> | 6.00/6.00
 |JS Advanced </a>   |<a href="https://github.com/amartinn/SoftUni/blob/master/JS%20Core%20January%202020/JS%20Advanced/JS%20Advanced%20-%20January%202020%20-%20Certificate.pdf" >Click</a> | 5.91/6.00|
 |JS Applications </a>   |<a href="https://github.com/amartinn/SoftUni/blob/master/JS%20Core%20January%202020/JS%20Applications/JS%20Applications%20-%20February%202020%20-%20Certificate.pdf" >Click</a> | 6.00/6.00
+|MS SQL </a>   |<a href="#" >TBA</a> | TBA
+|Entity Framework Core </a>   |<a href="#" >TBA</a> | TBA
 |Average Grade | | 5.98 
