@@ -133,16 +133,19 @@ USE Bank
 GO
 
 CREATE PROCEDURE usp_GetHoldersFullName AS
+BEGIN
 SELECT CONCAT(FirstName, ' ', LastName) AS [Full Name] FROM AccountHolders
-
+END
 GO
 /*10*/
 CREATE PROCEDURE usp_GetHoldersWithBalanceHigherThan(@money DECIMAL(16,2)) AS
+BEGIN
 SELECT ah.FirstName, ah.LastName FROM Accounts AS a
 JOIN AccountHolders AS ah
 ON a.AccountHolderId = ah.Id
 GROUP BY ah.FirstName, ah.LastName
 HAVING SUM(a.Balance) > @money
+END
 
 GO
 /*11*/
@@ -155,6 +158,7 @@ END
 GO
 /*12*/
 CREATE PROCEDURE usp_CalculateFutureValueForAccount(@AccountID INT, @InterestRate FLOAT) AS
+BEGIN
 SELECT 
 	a.Id AS [Account Id], 
 	ah.FirstName AS [First Name],
@@ -164,6 +168,7 @@ SELECT
 	FROM Accounts AS a
 JOIN AccountHolders AS ah
 ON a.AccountHolderId = ah.Id AND a.Id = @AccountID
+END
 GO
 /*13*/
 USE Diablo
@@ -181,9 +186,3 @@ RETURN	SELECT SUM(Cash) AS SumCash FROM
 	WHERE RowNum % 2 = 1
 GO
 
-SELECT * FROM dbo.ufn_CashInUsersGames('Lily Stargazer')
-/*14*/
-/*15*/
-/*16*/
-/*17*/
-/*18*/
