@@ -11,7 +11,7 @@
 
   
 ## Exams
-<a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Advanced%20September%202019/C%23%20Advanced/exams"> <p>C# Advanced Exam - 23 June 2019<p> </a>
+<a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Advanced%20September%202019/C%23%20Advanced/exams/C%23%20Advanced%20Exam%20-%2023%20June%202019"> <p>C# Advanced Exam - 23 June 2019<p> </a>
 <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Advanced%20September%202019/C%23%20Advanced/exams/Csharp%20Advanced%20Exam%20-%2024%20February%202019"> <p>C# Advanced Exam - 24 February 2019<p> </a>
 <a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20Advanced%20September%202019/C%23%20Advanced/exams/Csharp%20Advanced%20Exam%2026%20October"> <p>C# Advanced Exam 26 October<p> </a>
 
