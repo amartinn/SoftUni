@@ -58,10 +58,67 @@
 
 		public static string ExportUserPurchasesByType(VaporStoreDbContext context, string storeType)
 		{
+			var @enum = (PurchaseType)Enum.Parse(typeof(PurchaseType), storeType);
 
-			throw new NotImplementedException();
+			var users = context.Users
+				.ToArray()
+				.Select(u => new ExportUserDTO
+				{
+					Username = u.Username,
+					Purchases = context.Purchases.Where(x => x.Card.User.Id == u.Id && @enum == x.Type)
+
+					.OrderBy(x => x.Date)
+
+					.Select(x => new ExportPurchaseDTO
+					{
+						Card = x.Card.Number,
+						Cvc = x.Card.Cvc,
+						Date = x.Date.ToString("yyyy-MM-dd HH:mm"),
+						Game = new ExportGameDTO
+						{
+							Genre = x.Game.Genre.ToString(),
+							Price = x.Game.Price,
+							Title = x.Game.Name
+						}
+					}).ToArray()
+				}).ToArray()
+				.Where(x => x.Purchases.Any(x => x.Game.Price > 0))
+				.ToArray();
+			;
+            foreach (var user in users)
+            {
+				user.TotalSpent = user.Purchases.Select(x => x.Game.Price).Sum();
+
+            }
+			users = users.OrderByDescending(x => x.TotalSpent).ThenBy(x => x.Username).ToArray();
+			var xml = Serialize(users, "Users");
+			return xml;
 		}
 
+						
+			public static string Serialize<T>(
+			T[] dataTransferObjects,
+			string xmlRootAttributeName)
+			{
+				XmlSerializer serializer = new XmlSerializer(typeof(T[]), new XmlRootAttribute(xmlRootAttributeName));
+
+				var builder = new StringBuilder();
+
+				using (var writer = new StringWriter(builder))
+				{
+					serializer.Serialize(writer, dataTransferObjects, GetXmlNamespaces());
+				}
+
+
+				return builder.ToString();
+			}
+		
+		private static XmlSerializerNamespaces GetXmlNamespaces()
+		{
+			XmlSerializerNamespaces xmlNamespaces = new XmlSerializerNamespaces();
+			xmlNamespaces.Add(string.Empty, string.Empty);
+			return xmlNamespaces;
+		}
 	}
 	
 }
