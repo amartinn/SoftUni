@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Users>
+  <User name="fstoter">
+    <Purchases>
+      <Purchase>
+        <Card>9466 9592 0503 1368</Card>
+        <Cvc>753</Cvc>
+        <Dat>2016-02-02 19:38</Dat>
+        <Game title="Warframe">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>9466 9592 0503 1368</Card>
+        <Cvc>753</Cvc>
+        <Dat>2016-06-11 10:53</Dat>
+        <Game title="Team Fortress 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>9466 9592 0503 1368</Card>
+        <Cvc>753</Cvc>
+        <Dat>2016-10-24 13:26</Dat>
+        <Game title="Far Cry 5">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>9466 9592 0503 1368</Card>
+        <Cvc>753</Cvc>
+        <Dat>2017-09-16 16:04</Dat>
+        <Game title="MONSTER HUNTER: WORLD">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>119.98</TotalSpent>
+  </User>
+  <User name="mgraveson">
+    <Purchases>
+      <Purchase>
+        <Card>7790 7962 4262 5606</Card>
+        <Cvc>966</Cvc>
+        <Dat>2016-07-05 17:01</Dat>
+        <Game title="MONSTER HUNTER: WORLD">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>7790 7962 4262 5606</Card>
+        <Cvc>966</Cvc>
+        <Dat>2018-02-28 08:38</Dat>
+        <Game title="Tom Clancy's Ghost Recon Wildlands">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>119.98</TotalSpent>
+  </User>
+  <User name="cbelchamber">
+    <Purchases>
+      <Purchase>
+        <Card>6842 0546 4406 5606</Card>
+        <Cvc>538</Cvc>
+        <Dat>2017-05-16 04:34</Dat>
+        <Game title="Black Desert Online">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>9.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>6842 0546 4406 5606</Card>
+        <Cvc>538</Cvc>
+        <Dat>2018-01-15 15:50</Dat>
+        <Game title="NBA 2K18">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>49.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>6842 0546 4406 5606</Card>
+        <Cvc>538</Cvc>
+        <Dat>2018-02-24 20:06</Dat>
+        <Game title="Call of Duty: Black Ops III">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>119.97</TotalSpent>
+  </User>
+  <User name="atobin">
+    <Purchases>
+      <Purchase>
+        <Card>6975 1775 3435 4897</Card>
+        <Cvc>857</Cvc>
+        <Dat>2016-04-27 18:40</Dat>
+        <Game title="NBA 2K18">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>49.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>6975 1775 3435 4897</Card>
+        <Cvc>857</Cvc>
+        <Dat>2018-01-11 06:49</Dat>
+        <Game title="The Crew 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>6975 1775 3435 4897</Card>
+        <Cvc>857</Cvc>
+        <Dat>2018-06-22 12:45</Dat>
+        <Game title="Warframe">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>109.98</TotalSpent>
+  </User>
+  <User name="aruthven">
+    <Purchases>
+      <Purchase>
+        <Card>5208 8381 5687 8508</Card>
+        <Cvc>624</Cvc>
+        <Dat>2016-04-10 17:40</Dat>
+        <Game title="Yu-Gi-Oh! Duel Links">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5208 8381 5687 8508</Card>
+        <Cvc>624</Cvc>
+        <Dat>2016-06-29 10:42</Dat>
+        <Game title="NARUTO SHIPPUDEN: Ultimate Ninja STORM 4">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>29.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5208 8381 5687 8508</Card>
+        <Cvc>624</Cvc>
+        <Dat>2017-01-22 09:33</Dat>
+        <Game title="The Crew 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5208 8381 5687 8508</Card>
+        <Cvc>624</Cvc>
+        <Dat>2018-01-11 19:46</Dat>
+        <Game title="Slay the Spire">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>15.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>105.97</TotalSpent>
+  </User>
+  <User name="bcorcut">
+    <Purchases>
+      <Purchase>
+        <Card>7460 6498 2791 0231</Card>
+        <Cvc>068</Cvc>
+        <Dat>2016-07-26 17:20</Dat>
+        <Game title="The Elder Scrolls V: Skyrim Special Edition">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>39.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>7460 6498 2791 0231</Card>
+        <Cvc>068</Cvc>
+        <Dat>2017-12-27 05:10</Dat>
+        <Game title="Counter-Strike: Global Offensive">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>12.49</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>7460 6498 2791 0231</Card>
+        <Cvc>068</Cvc>
+        <Dat>2018-08-31 15:55</Dat>
+        <Game title="Conan Exiles">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>39.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>92.47</TotalSpent>
+  </User>
+  <User name="bgunston">
+    <Purchases>
+      <Purchase>
+        <Card>9329 2624 0151 4535</Card>
+        <Cvc>689</Cvc>
+        <Dat>2016-07-21 23:51</Dat>
+        <Game title="Football Manager 2018">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>54.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>9329 2624 0151 4535</Card>
+        <Cvc>689</Cvc>
+        <Dat>2016-09-11 22:27</Dat>
+        <Game title="NARUTO SHIPPUDEN: Ultimate Ninja STORM 4">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>29.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>84.98</TotalSpent>
+  </User>
+  <User name="aputland">
+    <Purchases>
+      <Purchase>
+        <Card>7660 9400 3206 5606</Card>
+        <Cvc>600</Cvc>
+        <Dat>2017-12-12 04:37</Dat>
+        <Game title="Rocket League">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>12.59</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>7660 9400 3206 5606</Card>
+        <Cvc>600</Cvc>
+        <Dat>2017-12-29 19:37</Dat>
+        <Game title="Tom Clancy's Ghost Recon Wildlands">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>72.58</TotalSpent>
+  </User>
+  <User name="cgara">
+    <Purchases>
+      <Purchase>
+        <Card>5103 9356 9768 6854</Card>
+        <Cvc>493</Cvc>
+        <Dat>2016-09-12 22:11</Dat>
+        <Game title="FOR HONOR">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>14.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5103 9356 9768 6854</Card>
+        <Cvc>493</Cvc>
+        <Dat>2016-12-03 23:16</Dat>
+        <Game title="Neverwinter">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5103 9356 9768 6854</Card>
+        <Cvc>493</Cvc>
+        <Dat>2017-01-20 21:52</Dat>
+        <Game title="Tom Clancy's Rainbow Six Siege">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>14.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5103 9356 9768 6854</Card>
+        <Cvc>493</Cvc>
+        <Dat>2017-05-11 08:15</Dat>
+        <Game title="Crash Bandicoot N. Sane Trilogy">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>39.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>69.97</TotalSpent>
+  </User>
+  <User name="mgillicuddy">
+    <Purchases>
+      <Purchase>
+        <Card>4499 3123 4695 9542</Card>
+        <Cvc>444</Cvc>
+        <Dat>2016-07-20 05:12</Dat>
+        <Game title="Banished">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>18.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>4499 3123 4695 9542</Card>
+        <Cvc>444</Cvc>
+        <Dat>2016-11-18 05:52</Dat>
+        <Game title="Vampyr">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>49.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>4499 3123 4695 9542</Card>
+        <Cvc>444</Cvc>
+        <Dat>2018-06-19 16:00</Dat>
+        <Game title="Warframe">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>68.98</TotalSpent>
+  </User>
+  <User name="vsjollema">
+    <Purchases>
+      <Purchase>
+        <Card>4846 1275 4235 3039</Card>
+        <Cvc>268</Cvc>
+        <Dat>2017-11-12 03:51</Dat>
+        <Game title="Total War: WARHAMMER II">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>59.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>59.99</TotalSpent>
+  </User>
+  <User name="hrichardson">
+    <Purchases>
+      <Purchase>
+        <Card>5811 6621 2962 1020</Card>
+        <Cvc>375</Cvc>
+        <Dat>2016-02-21 22:11</Dat>
+        <Game title="RimWorld">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>27.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5811 6621 2962 1020</Card>
+        <Cvc>375</Cvc>
+        <Dat>2017-01-18 02:48</Dat>
+        <Game title="Factorio">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>25.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>52.99</TotalSpent>
+  </User>
+  <User name="aputland">
+    <Purchases>
+      <Purchase>
+        <Card>2263 5851 7894 9441</Card>
+        <Cvc>192</Cvc>
+        <Dat>2016-11-27 12:17</Dat>
+        <Game title="Pro Cycling Manager 2018">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>39.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>2263 5851 7894 9441</Card>
+        <Cvc>192</Cvc>
+        <Dat>2017-07-31 12:07</Dat>
+        <Game title="FINAL FANTASY XIV Online">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>9.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>49.98</TotalSpent>
+  </User>
+  <User name="bgraith">
+    <Purchases>
+      <Purchase>
+        <Card>4611 7969 4921 6749</Card>
+        <Cvc>519</Cvc>
+        <Dat>2017-08-29 17:59</Dat>
+        <Game title="Warhammer 40,000: Gladius - Relics of War">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>37.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>4611 7969 4921 6749</Card>
+        <Cvc>519</Cvc>
+        <Dat>2018-02-03 06:38</Dat>
+        <Game title="Bridge Constructor Portal">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>9.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>47.98</TotalSpent>
+  </User>
+  <User name="mdickson">
+    <Purchases>
+      <Purchase>
+        <Card>5317 5177 3653 0084</Card>
+        <Cvc>963</Cvc>
+        <Dat>2016-01-02 19:25</Dat>
+        <Game title="FINAL FANTASY XIV Online">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>9.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5317 5177 3653 0084</Card>
+        <Cvc>963</Cvc>
+        <Dat>2017-01-14 04:09</Dat>
+        <Game title="Planet Coaster">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>37.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5317 5177 3653 0084</Card>
+        <Cvc>963</Cvc>
+        <Dat>2017-08-25 06:12</Dat>
+        <Game title="Warframe">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5317 5177 3653 0084</Card>
+        <Cvc>963</Cvc>
+        <Dat>2018-04-19 06:26</Dat>
+        <Game title="Team Fortress 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>47.98</TotalSpent>
+  </User>
+  <User name="asikorsky">
+    <Purchases>
+      <Purchase>
+        <Card>3863 8683 6862 0373</Card>
+        <Cvc>640</Cvc>
+        <Dat>2018-06-18 15:45</Dat>
+        <Game title="Divinity: Original Sin 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>44.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>44.99</TotalSpent>
+  </User>
+  <User name="kmertgen">
+    <Purchases>
+      <Purchase>
+        <Card>1268 2352 8506 0500</Card>
+        <Cvc>693</Cvc>
+        <Dat>2017-07-05 05:17</Dat>
+        <Game title="Wreckfest">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>44.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>1268 2352 8506 0500</Card>
+        <Cvc>693</Cvc>
+        <Dat>2017-10-06 17:13</Dat>
+        <Game title="Warframe">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>44.99</TotalSpent>
+  </User>
+  <User name="kroderighi">
+    <Purchases>
+      <Purchase>
+        <Card>7036 3344 0149 7880</Card>
+        <Cvc>094</Cvc>
+        <Dat>2016-12-25 12:01</Dat>
+        <Game title="Stardew Valley">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>13.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>7036 3344 0149 7880</Card>
+        <Cvc>094</Cvc>
+        <Dat>2017-02-04 00:11</Dat>
+        <Game title="Brawlhalla">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>7036 3344 0149 7880</Card>
+        <Cvc>094</Cvc>
+        <Dat>2018-01-22 11:51</Dat>
+        <Game title="NARUTO SHIPPUDEN: Ultimate Ninja STORM 4">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>29.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>43.98</TotalSpent>
+  </User>
+  <User name="hrichardson">
+    <Purchases>
+      <Purchase>
+        <Card>4082 9960 2674 5955</Card>
+        <Cvc>598</Cvc>
+        <Dat>2016-07-04 14:35</Dat>
+        <Game title="Crash Bandicoot N. Sane Trilogy">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>39.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>4082 9960 2674 5955</Card>
+        <Cvc>598</Cvc>
+        <Dat>2017-08-02 09:16</Dat>
+        <Game title="Neverwinter">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>39.99</TotalSpent>
+  </User>
+  <User name="kcarroll">
+    <Purchases>
+      <Purchase>
+        <Card>2844 3311 3796 4444</Card>
+        <Cvc>137</Cvc>
+        <Dat>2017-05-17 19:38</Dat>
+        <Game title="DARK SOULS: REMASTERED">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>39.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>39.99</TotalSpent>
+  </User>
+  <User name="spaprotny">
+    <Purchases>
+      <Purchase>
+        <Card>9185 2070 3009 4543</Card>
+        <Cvc>518</Cvc>
+        <Dat>2016-09-08 02:54</Dat>
+        <Game title="Rules Of Survival">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>2.39</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>9185 2070 3009 4543</Card>
+        <Cvc>518</Cvc>
+        <Dat>2016-11-15 18:07</Dat>
+        <Game title="Banished">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>18.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>9185 2070 3009 4543</Card>
+        <Cvc>518</Cvc>
+        <Dat>2018-07-25 18:31</Dat>
+        <Game title="House Flipper">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>16.79</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>38.17</TotalSpent>
+  </User>
+  <User name="kcarroll">
+    <Purchases>
+      <Purchase>
+        <Card>7716 6230 0769 9366</Card>
+        <Cvc>656</Cvc>
+        <Dat>2018-07-04 18:07</Dat>
+        <Game title="Planet Coaster">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>37.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>37.99</TotalSpent>
+  </User>
+  <User name="vsjollema">
+    <Purchases>
+      <Purchase>
+        <Card>7815 5830 0145 0448</Card>
+        <Cvc>249</Cvc>
+        <Dat>2016-09-13 03:51</Dat>
+        <Game title="Squad">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>36.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>36.99</TotalSpent>
+  </User>
+  <User name="nparadyce">
+    <Purchases>
+      <Purchase>
+        <Card>0798 3871 2521 2016</Card>
+        <Cvc>036</Cvc>
+        <Dat>2017-03-27 18:19</Dat>
+        <Game title="Rust">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>31.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>31.99</TotalSpent>
+  </User>
+  <User name="gsmallthwaite">
+    <Purchases>
+      <Purchase>
+        <Card>5994 2396 1516 2411</Card>
+        <Cvc>318</Cvc>
+        <Dat>2016-09-28 07:57</Dat>
+        <Game title="The Witcher 3: Wild Hunt">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>29.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>29.99</TotalSpent>
+  </User>
+  <User name="mgillicuddy">
+    <Purchases>
+      <Purchase>
+        <Card>9924 7778 1587 0277</Card>
+        <Cvc>603</Cvc>
+        <Dat>2016-06-26 12:40</Dat>
+        <Game title="NARUTO SHIPPUDEN: Ultimate Ninja STORM 4">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>29.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>29.99</TotalSpent>
+  </User>
+  <User name="klife">
+    <Purchases>
+      <Purchase>
+        <Card>2962 0872 0998 4724</Card>
+        <Cvc>638</Cvc>
+        <Dat>2017-01-03 16:28</Dat>
+        <Game title="Terraria">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>9.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>2962 0872 0998 4724</Card>
+        <Cvc>638</Cvc>
+        <Dat>2017-08-03 12:48</Dat>
+        <Game title="Raft">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>19.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>29.98</TotalSpent>
+  </User>
+  <User name="wskep">
+    <Purchases>
+      <Purchase>
+        <Card>0327 7877 3023 9451</Card>
+        <Cvc>939</Cvc>
+        <Dat>2017-09-10 04:11</Dat>
+        <Game title="Rocket League">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>12.59</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>0327 7877 3023 9451</Card>
+        <Cvc>939</Cvc>
+        <Dat>2018-07-10 14:43</Dat>
+        <Game title="Soul at Stake">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>14.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>27.58</TotalSpent>
+  </User>
+  <User name="rabbison">
+    <Purchases>
+      <Purchase>
+        <Card>5747 3965 9959 7596</Card>
+        <Cvc>463</Cvc>
+        <Dat>2016-09-08 17:07</Dat>
+        <Game title="SMITE">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5747 3965 9959 7596</Card>
+        <Cvc>463</Cvc>
+        <Dat>2017-12-05 17:03</Dat>
+        <Game title="Path of Exile">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5747 3965 9959 7596</Card>
+        <Cvc>463</Cvc>
+        <Dat>2018-05-11 04:05</Dat>
+        <Game title="Dungeon Warfare 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>12.49</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>5747 3965 9959 7596</Card>
+        <Cvc>463</Cvc>
+        <Dat>2018-07-20 18:52</Dat>
+        <Game title="Guns, Gore and Cannoli 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>12.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>25.48</TotalSpent>
+  </User>
+  <User name="bgunston">
+    <Purchases>
+      <Purchase>
+        <Card>3762 5646 9250 3278</Card>
+        <Cvc>111</Cvc>
+        <Dat>2016-01-28 16:06</Dat>
+        <Game title="Factorio">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>25.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>3762 5646 9250 3278</Card>
+        <Cvc>111</Cvc>
+        <Dat>2017-10-30 10:16</Dat>
+        <Game title="Neverwinter">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>25.00</TotalSpent>
+  </User>
+  <User name="fdedam">
+    <Purchases>
+      <Purchase>
+        <Card>9574 1800 3833 2972</Card>
+        <Cvc>512</Cvc>
+        <Dat>2016-04-16 14:45</Dat>
+        <Game title="Brawlhalla">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>9574 1800 3833 2972</Card>
+        <Cvc>512</Cvc>
+        <Dat>2016-04-25 13:53</Dat>
+        <Game title="Team Fortress 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>9574 1800 3833 2972</Card>
+        <Cvc>512</Cvc>
+        <Dat>2017-10-20 11:26</Dat>
+        <Game title="Dead by Daylight">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>19.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>19.99</TotalSpent>
+  </User>
+  <User name="dsharple">
+    <Purchases>
+      <Purchase>
+        <Card>6752 6869 9870 9732</Card>
+        <Cvc>719</Cvc>
+        <Dat>2017-04-12 06:39</Dat>
+        <Game title="Banished">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>18.99</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>6752 6869 9870 9732</Card>
+        <Cvc>719</Cvc>
+        <Dat>2017-07-20 14:22</Dat>
+        <Game title="Trove">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>18.99</TotalSpent>
+  </User>
+  <User name="bgraith">
+    <Purchases>
+      <Purchase>
+        <Card>5962 2881 2375 4209</Card>
+        <Cvc>022</Cvc>
+        <Dat>2018-08-08 08:10</Dat>
+        <Game title="Human: Fall Flat">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>14.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>14.99</TotalSpent>
+  </User>
+  <User name="ehellard">
+    <Purchases>
+      <Purchase>
+        <Card>3013 7441 5769 1224</Card>
+        <Cvc>703</Cvc>
+        <Dat>2016-09-27 03:30</Dat>
+        <Game title="Soul at Stake">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>14.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>14.99</TotalSpent>
+  </User>
+  <User name="klife">
+    <Purchases>
+      <Purchase>
+        <Card>0540 4834 3653 5943</Card>
+        <Cvc>943</Cvc>
+        <Dat>2017-09-25 05:40</Dat>
+        <Game title="Warface">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>0540 4834 3653 5943</Card>
+        <Cvc>943</Cvc>
+        <Dat>2018-06-06 20:34</Dat>
+        <Game title="Tom Clancy's Rainbow Six Siege">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>14.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>14.99</TotalSpent>
+  </User>
+  <User name="ehellard">
+    <Purchases>
+      <Purchase>
+        <Card>2643 8516 1644 3240</Card>
+        <Cvc>808</Cvc>
+        <Dat>2016-10-21 09:44</Dat>
+        <Game title="Dungeon Warfare 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>12.49</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>2643 8516 1644 3240</Card>
+        <Cvc>808</Cvc>
+        <Dat>2018-09-08 17:36</Dat>
+        <Game title="Warframe">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>12.49</TotalSpent>
+  </User>
+  <User name="lsilbert">
+    <Purchases>
+      <Purchase>
+        <Card>1833 5024 0553 6211</Card>
+        <Cvc>903</Cvc>
+        <Dat>2016-12-07 05:49</Dat>
+        <Game title="Dungeon Warfare 2">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>12.49</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>12.49</TotalSpent>
+  </User>
+  <User name="mgraveson">
+    <Purchases>
+      <Purchase>
+        <Card>7991 7779 5123 9211</Card>
+        <Cvc>340</Cvc>
+        <Dat>2017-08-31 17:09</Dat>
+        <Game title="Counter-Strike: Global Offensive">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>12.49</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>12.49</TotalSpent>
+  </User>
+  <User name="svannini">
+    <Purchases>
+      <Purchase>
+        <Card>2175 1623 6855 0876</Card>
+        <Cvc>760</Cvc>
+        <Dat>2017-12-12 09:46</Dat>
+        <Game title="Terraria">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>9.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>9.99</TotalSpent>
+  </User>
+  <User name="vsjollema">
+    <Purchases>
+      <Purchase>
+        <Card>8608 6806 8238 3092</Card>
+        <Cvc>081</Cvc>
+        <Dat>2017-10-01 01:14</Dat>
+        <Game title="Garry's Mod">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>9.99</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>9.99</TotalSpent>
+  </User>
+  <User name="aputland">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="asikorsky">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="atobin">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="bfrontczak">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="bfrontczak">
+    <Purchases>
+      <Purchase>
+        <Card>9104 6735 7127 3894</Card>
+        <Cvc>985</Cvc>
+        <Dat>2018-01-28 00:34</Dat>
+        <Game title="Shadowverse CCG">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>0.00</TotalSpent>
+  </User>
+  <User name="bgunston">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="cbelchamber">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="dsharple">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="ehellard">
+    <Purchases>
+      <Purchase>
+        <Card>3563 6747 1527 9955</Card>
+        <Cvc>727</Cvc>
+        <Dat>2017-08-26 16:56</Dat>
+        <Game title="Brawlhalla">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>0.00</TotalSpent>
+  </User>
+  <User name="fdedam">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="gsmallthwaite">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="gsmallthwaite">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="kcarroll">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="lsilbert">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="lsilbert">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="mdickson">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="mdickson">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="nparadyce">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+  <User name="spaprotny">
+    <Purchases>
+      <Purchase>
+        <Card>6777 2480 1837 5824</Card>
+        <Cvc>533</Cvc>
+        <Dat>2017-04-01 17:27</Dat>
+        <Game title="Paladins">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>0.00</TotalSpent>
+  </User>
+  <User name="svannini">
+    <Purchases>
+      <Purchase>
+        <Card>1642 7380 2920 7598</Card>
+        <Cvc>908</Cvc>
+        <Dat>2016-08-29 05:17</Dat>
+        <Game title="Path of Exile">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+      <Purchase>
+        <Card>1642 7380 2920 7598</Card>
+        <Cvc>908</Cvc>
+        <Dat>2017-08-04 12:34</Dat>
+        <Game title="Trove">
+          <Genre>Castle.Proxies.GenreProxy</Genre>
+          <Price>0.00</Price>
+        </Game>
+      </Purchase>
+    </Purchases>
+    <TotalSpent>0.00</TotalSpent>
+  </User>
+  <User name="svannini">
+    <Purchases />
+    <TotalSpent>0</TotalSpent>
+  </User>
+</Users>
