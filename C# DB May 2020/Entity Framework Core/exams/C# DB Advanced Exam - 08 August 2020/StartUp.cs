@@ -2,7 +2,6 @@
 {
 	using System;
 	using System.IO;
-	using AutoMapper;
 	using Data;
 	using DataProcessor;
 	using Microsoft.EntityFrameworkCore;
@@ -75,7 +74,7 @@
 				"EXEC sp_MSforeachtable @command1='IF OBJECT_ID(''?'') IN (SELECT OBJECT_ID FROM SYS.IDENTITY_COLUMNS) DBCC CHECKIDENT(''?'', RESEED, 0)'";
 			context.Database.ExecuteSqlCommand(reseedQuery);
 		}
-
+	
 		private static void PrintAndExportEntityToFile(string entityOutput, string outputPath)
 		{
 			Console.WriteLine(entityOutput);
