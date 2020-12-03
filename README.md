@@ -12,4 +12,6 @@
 |JS Applications </a>   |<a href="https://github.com/amartinn/SoftUni/blob/master/JS%20Core%20January%202020/JS%20Applications/JS%20Applications%20-%20February%202020%20-%20Certificate.pdf" >Click</a> | 6.00/6.00
 |MS SQL </a>   |<a href="https://github.com/amartinn/SoftUni/blob/master/C%23%20DB%20May%202020/MS%20SQL/Databases%20Basics%20-%20MS%20SQL%20Server%20-%20May%202020%20-%20Certificate.pdf" >Click</a> | 6.00/6.00
 |Entity Framework Core </a>   |<a href="https://github.com/amartinn/SoftUni/tree/master/C%23%20DB%20May%202020/Entity%20Framework%20Core" >Click</a> | 5.88/6.00
+|C# Web Basics </a>   |<a href="https://github.com/amartinn/SoftUni/blob/master/C%23%20Web/C%23%20Web%20Basics/C%23%20Web%20Basics%20-%20September%202020%20-%20Certificate.pdf" >Click</a> | 6.00/6.00
+|ASP.NET Core  </a>   |<a href="!#" >TBA</a> | TBA
 |Average Grade | | 5.97 
