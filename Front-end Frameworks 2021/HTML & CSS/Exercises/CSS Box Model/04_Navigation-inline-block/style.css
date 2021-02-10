@@ -1,0 +1,30 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+header{
+    border-bottom: 1.5px solid #000;
+    padding: 30px 0px;
+   width: 90%;
+   margin: auto;
+}
+main {
+    width: 90%;
+    margin: auto;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #6BBB70;
+}
+nav ul,
+nav {
+    display: inline-block;
+    margin-left: 100px;
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+}

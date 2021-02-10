@@ -1,0 +1,6 @@
+.gallery li {
+    border: 0.4rem solid black;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
