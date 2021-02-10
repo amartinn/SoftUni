@@ -1,0 +1,23 @@
+
+tr:hover{
+    background:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+tr:nth-child(odd){
+    background: rgb(241, 241, 241);
+}
+tr:nth-child(odd) td{
+    background: rgb(241, 241, 241);
+}
+table,td,th{
+    border: 1px solid rgb(221, 221, 221);
+}
+
+thead tr>th{
+    text-align: left;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
